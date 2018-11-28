@@ -1,0 +1,6 @@
+framework module FZMyLibiary {
+  umbrella header "FZMyLibiary-umbrella.h"
+
+  export *
+  module * { export * }
+}

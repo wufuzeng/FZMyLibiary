@@ -1,8 +1,9 @@
 use_frameworks!
 
 target 'FZMyLibiary_Example' do
-  pod 'FZMyLibiary', :path => '../'
-
+    #  pod 'FZMyLibiary', :path => '../'
+    pod 'FZMyLibiary', :podspec => '../FZMyLibiary.podspec'
+FZMyLibiary.podspec
   target 'FZMyLibiary_Tests' do
     inherit! :search_paths
 

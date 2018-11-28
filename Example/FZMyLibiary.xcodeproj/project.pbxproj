@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C78A40FFDA05B0458C856B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		30A3F8FC1B42DD3A0C228FCA /* FZMyLibiary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZMyLibiary.podspec; path = ../FZMyLibiary.podspec; sourceTree = "<group>"; };
+		2C78A40FFDA05B0458C856B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30A3F8FC1B42DD3A0C228FCA /* FZMyLibiary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZMyLibiary.podspec; path = ../FZMyLibiary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46D77487B983092631959F18 /* Pods_FZMyLibiary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZMyLibiary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FZMyLibiary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZMyLibiary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC0831D8AC4C1AE20C34E340 /* Pods-FZMyLibiary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B07A83596F895C1FA3F37AC1 /* Pods-FZMyLibiary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Tests/Pods-FZMyLibiary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BBDD077DBD08CBADEC97B389 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BBDD077DBD08CBADEC97B389 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C722FD3E8D06116A575FD599 /* Pods-FZMyLibiary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Tests/Pods-FZMyLibiary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3253197595EEBC3918BFBF /* Pods-FZMyLibiary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

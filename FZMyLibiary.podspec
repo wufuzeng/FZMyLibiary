@@ -27,10 +27,11 @@ TODO: Add long description of the pod here.
   s.author           = { 'wufuzeng' => 'wufuzeng_lucky@sina.com' }
   s.source           = { :git => 'https://github.com/wufuzeng/FZMyLibiary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'FZMyLibiary/Classes/**/*'
+ 
+  s.public_header_files = 'Pod/Classes/**/FZMyLibiary.h'
+  s.source_files = 'FZMyLibiary/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'FZMyLibiary' => ['FZMyLibiary/Assets/*.png']

@@ -8,11 +8,6 @@
 #ifndef FZMyLibiary_h
 #define FZMyLibiary_h
 
-#import "FZPath.h"
-#import "FZFile.h"
-#import "FZFolder.h"
-#import "FZFileCache.h"
-#import "FZFileReceiver.h"
-#import "FZFileDownloader.h"
+ #import "FZRecordView.h"
 
 #endif /* FZMyLibiary_h */

@@ -7,17 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		148B6C64CE21EDE32A7B8E2CB26E8867 /* FZMyLibiary.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F1F13276ADC1ED17DE4B76E37388B3 /* FZMyLibiary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F7DA1EBFB3F9D36B80D2F1A9C9C4822 /* FZMyLibiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4580E3068BF20A16D01DE4E15A6E5E /* FZMyLibiary-dummy.m */; };
-		31A00D4314A693A7565743F0EBFBF033 /* FZMyLibiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E6B9B05278DC6D724E12A0D757A042 /* FZMyLibiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47D44F813AEA4C4A207149E4EA6FDED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		0190E70F24DB4F2EF7DEF64A8850CEE1 /* FZRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D0F2DF78A4F1D3EEA65D19BBCCE21 /* FZRecordEncoder.m */; };
+		0604D74C1F47126ED6F3D2270DE52C66 /* FZRecordToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF61BE15814F69B657BF48944773D4 /* FZRecordToolView.m */; };
+		0EBFEE1F9C2440AC2DC44AFE17D0759F /* listing_flash_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A1AEAFE3A773AC0B630E9B8C2569DB /* listing_flash_off@2x.png */; };
+		120D284BFF766664ECBA2B0BA6D70899 /* FZMyLibiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AFD45F70950B480148784D0BA58ADC /* FZMyLibiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9552B361C6FEFCE0E990637BA6D0E2 /* FZVideoEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCFAB94C4CD61377A1CE702AB7F4F70 /* FZVideoEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0B11148BB22D1721560EC293B7C483 /* video_record_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E64B60B0BF23830E708BD6C93BA78CC0 /* video_record_pause@2x.png */; };
+		312CDB53EB6592D07E3BD9DB7F582EE7 /* listing_camera_lens@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16636D8392E0A442598085D233EC4269 /* listing_camera_lens@3x.png */; };
+		40FF5C93B3C696A633178BBDF8BC7BD2 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42195BFB7772EC4256E5376180E6E33D /* cancel@2x.png */; };
+		4BB3AAE3917197FFBEF6D5F9CAC64C98 /* FZRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 677696589225329489A15B29173013B6 /* FZRecordEngine.m */; };
+		4E8DC1495E0D5AFF6BB5A317A094CAEA /* FZRecordNaviView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CAD391F4FF152FC7818906912AA64C /* FZRecordNaviView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5851748A15A85EE8BB8D1002FFE69136 /* listing_flash_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE2E103CB768F704FDCA1C99DFF8EE7 /* listing_flash_on@2x.png */; };
+		6006C8B02B730253A80D41BB41F447ED /* FZRecordTimeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2467CE3C059EDF1F917ABFE3463B0 /* FZRecordTimeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B9BE9622F5336C00F25AB3 /* FZRecordConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9BE9422F5336C00F25AB3 /* FZRecordConfig.h */; };
+		60B9BE9722F5336C00F25AB3 /* FZRecordConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9BE9522F5336C00F25AB3 /* FZRecordConfig.m */; };
+		60B9BE9A22F5786700F25AB3 /* FZFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B9BE9822F5786700F25AB3 /* FZFilter.h */; };
+		60B9BE9B22F5786700F25AB3 /* FZFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9BE9922F5786700F25AB3 /* FZFilter.m */; };
+		60D75BE722F28085008284BD /* FZRecordAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D75BE522F28085008284BD /* FZRecordAdaptor.h */; };
+		60D75BE822F28085008284BD /* FZRecordAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D75BE622F28085008284BD /* FZRecordAdaptor.m */; };
+		61754D12885570356B1A76503ED4FBFF /* FZRecordControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF496CD1D5BD2FA05F5DD2D186E3EA02 /* FZRecordControlView.m */; };
+		66984608A4AA0148FB14C37DBF1E101F /* video_play_nav_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E07E466C9D75EFAF54C4A11F9E26F4CF /* video_play_nav_bg@3x.png */; };
+		6AC482990C2D490632BF5D69FEE7435A /* FZMyLibiaryBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 633DA4889F0B3481A74360B9A7D640B3 /* FZMyLibiaryBundle.m */; };
 		6AF6EC97A96E394BFEC1EAB6180EAE02 /* Pods-FZMyLibiary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D30526E78D7C3D7D5992BDFE4478F63 /* Pods-FZMyLibiary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6E837FB9BCA46B00EE503E86F788F0 /* FZRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A93B7C4E847F195C8C77944570FCD /* FZRecordView.m */; };
+		71424A97C4AB6EC2E465B54E9B886FE7 /* FZRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC1F3F01431A9EBEC798E26E890B569 /* FZRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74476811458FC18DA6237863C1473E7E /* video_record_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9384341391983457F01811C5D4C83D42 /* video_record_pause@3x.png */; };
+		78205D0185D58482E3C9A3C0581A63A9 /* listing_flash_auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC798BCA7D567BF5E2FDD5C2F975D67A /* listing_flash_auto@2x.png */; };
+		7C79143BF73DEB320E19B20E206FF390 /* FZMyLibiary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A10B6809AFE47E0785B0BA6B925BDE4B /* FZMyLibiary.bundle */; };
+		7D5A6A85957F52E2EA09FC47AC299E6C /* video_record_pause1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9CCAACCD60421002A3CF7C11922306 /* video_record_pause1@2x.png */; };
+		7E82BC1C9B92A045681E8D57EE33063C /* listing_flash_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7647329795B8E2FB82F92E741EB05E /* listing_flash_off@3x.png */; };
 		813C01A50C99DF03062F87158502AB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		83DA9E12B651713D176D5078CF5D4BD9 /* FZMyLibiary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC6A380752E865AA1CE039904985372 /* FZMyLibiary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8641B9F406E82C98B20B40EB673DE29D /* FZRecordProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 017F1BB7E68A8BE2830AA990C304B1A7 /* FZRecordProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F4A67D3E70D5AE4628E6EAA778533FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8FEEEDADDDF8996779E61D16FAF34673 /* listing_flash_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0146B93FDFC55D8E5DC2448AEE901F7B /* listing_flash_on@3x.png */; };
+		95C1CD4D7BC0E7D31E9B6D7F5A2F9F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9710888B02B9053F8288E3E11A60D3B8 /* focusImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E67D9B07BAAEDFA68257DFC2C441D92F /* focusImg@2x.png */; };
 		9CC4093E6F6BE58779E11FDFAEFAA42C /* Pods-FZMyLibiary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B27255925564A8F51B320A0383432AA /* Pods-FZMyLibiary_Example-dummy.m */; };
-		A46ED5700F0FEAAAEF4AEA98AF020229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A612503CDF1384EFEA8695BD5246C8A9 /* FZRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0492A32C5C7260A56D722F8BEAD92 /* FZRecordProgressView.m */; };
+		B0B00DB0C4903238F6594C096D8BD1CC /* FZRecordToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DF0348304B99A3C2828155E79120D9 /* FZRecordToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2EA615DD13B8737C4D34EB5CDD0036A /* FZMyLibiaryBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6A8ED962B0FD9C07CBC1D7A36A595B /* FZMyLibiaryBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A703C76C58EB0A190559400BF6185B /* listing_camera_lens@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D36DECB97349405E08E69367EA /* listing_camera_lens@2x.png */; };
+		B9B02BF322AE873E0DD03F18C383F404 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9A1BFA815EB1B1901229C41BB800AD /* cancel@3x.png */; };
+		BF254F8159C9D4071F327C84C26F8C9C /* FZRecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6772FC304BB226D133C0DC03D520F9 /* FZRecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C722A3B070C48F5685CC13CF95956F /* FZMyLibiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAFE6B5878C133C4C915BDAA6F1366E /* FZMyLibiary-dummy.m */; };
+		C1A96DA9CA9097B578EC28732FC48D44 /* FZRecordEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBC24038B7582B10D2A87D5E4EDB9FF /* FZRecordEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CABE15808E42901C1E1740F82F0127DE /* video_record_pause1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A5D513E29A2D9935B8306539FA7D6C /* video_record_pause1@3x.png */; };
+		CCDE188859E836157B0F9BC9A964B872 /* FZVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CE69FA15B8F29BF0BBB5CB093C0256 /* FZVideoEditor.m */; };
 		DB92FC5A787176AC515C1D864B388FD1 /* Pods-FZMyLibiary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6B28269ABEEA7113CD0E71BC33F9D /* Pods-FZMyLibiary_Tests-dummy.m */; };
 		DFDE14A9AC2177403B2251CB3EBDAC07 /* Pods-FZMyLibiary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ABFD33AB20C20A8A6B44178A00046D /* Pods-FZMyLibiary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34E5923C16DF74F46DED09FC1283DA2 /* FZRecordNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C1AEC73919D38199F8E9010B7E146 /* FZRecordNaviView.m */; };
+		E3EC58CDDA15EDDF3A879F88DD020636 /* listing_flash_auto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9667C2CCE1DE99F9B85688A8F383243B /* listing_flash_auto@3x.png */; };
+		E9E55E7CD0CB6BB04CD8FDDA0F2889A1 /* video_play_nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2415B7A6D0747027C819012E7A2713FC /* video_play_nav_bg@2x.png */; };
+		F655A602ED148151C787AACD4AB2E64E /* FZRecordControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDD739384D673C04364879DCE618C52 /* FZRecordControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C8E3D2201F7CD6F2F2CBBD3B14B7D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		F83DB5D8623178E84D73B4A81A2F2FD8 /* FZRecordTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7319B67627CF59AED7D5D1D101EF53F0 /* FZRecordTimeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,41 +79,93 @@
 			remoteGlobalIDString = 5A4471F6A8C748132DE2B2EF2C5948FB;
 			remoteInfo = FZMyLibiary;
 		};
+		B8C41465C47DAF5E29834619A749EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C225DE24819ABE35664E750AC58B327;
+			remoteInfo = "FZMyLibiary-FZMyLibiary";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07E6B9B05278DC6D724E12A0D757A042 /* FZMyLibiary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZMyLibiary-umbrella.h"; sourceTree = "<group>"; };
-		085D980975E9583B1CD4003D1B2C1DF9 /* FZMyLibiary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZMyLibiary.modulemap; sourceTree = "<group>"; };
-		0E4580E3068BF20A16D01DE4E15A6E5E /* FZMyLibiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZMyLibiary-dummy.m"; sourceTree = "<group>"; };
-		21BC3A5CFDF561E81675BEFFD9DF7B56 /* FZMyLibiary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZMyLibiary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0146B93FDFC55D8E5DC2448AEE901F7B /* listing_flash_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_on@3x.png"; path = "FZMyLibiary/Assets/listing_flash_on@3x.png"; sourceTree = "<group>"; };
+		017F1BB7E68A8BE2830AA990C304B1A7 /* FZRecordProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordProgressView.h; sourceTree = "<group>"; };
+		0E5E3FFA62FB4DE38E88C03601AE4E7A /* ResourceBundle-FZMyLibiary-FZMyLibiary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FZMyLibiary-FZMyLibiary-Info.plist"; sourceTree = "<group>"; };
+		16636D8392E0A442598085D233EC4269 /* listing_camera_lens@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_camera_lens@3x.png"; path = "FZMyLibiary/Assets/listing_camera_lens@3x.png"; sourceTree = "<group>"; };
+		1DC1F3F01431A9EBEC798E26E890B569 /* FZRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordView.h; sourceTree = "<group>"; };
+		21CAD391F4FF152FC7818906912AA64C /* FZRecordNaviView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordNaviView.h; sourceTree = "<group>"; };
+		2415B7A6D0747027C819012E7A2713FC /* video_play_nav_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_play_nav_bg@2x.png"; path = "FZMyLibiary/Assets/video_play_nav_bg@2x.png"; sourceTree = "<group>"; };
 		24F9C824F814AA514C81DEE02BFC8CA5 /* Pods-FZMyLibiary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZMyLibiary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZMyLibiary.xcconfig; sourceTree = "<group>"; };
 		2D30526E78D7C3D7D5992BDFE4478F63 /* Pods-FZMyLibiary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZMyLibiary_Example-umbrella.h"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		33895354BD5BD9710399240163E682A5 /* Pods-FZMyLibiary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZMyLibiary_Tests-Info.plist"; sourceTree = "<group>"; };
+		33E275A06C5EE4604E9A0F612E25AE6A /* FZMyLibiary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZMyLibiary-prefix.pch"; sourceTree = "<group>"; };
 		38EBF3B18F5367D1761AA473395A7A07 /* Pods-FZMyLibiary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZMyLibiary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3CBF904903362B03C598927471F1CAD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FF2467CE3C059EDF1F917ABFE3463B0 /* FZRecordTimeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordTimeView.h; sourceTree = "<group>"; };
+		42195BFB7772EC4256E5376180E6E33D /* cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cancel@2x.png"; path = "FZMyLibiary/Assets/cancel@2x.png"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D7C1AEC73919D38199F8E9010B7E146 /* FZRecordNaviView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordNaviView.m; sourceTree = "<group>"; };
 		4F2BC6FC5F752C341DAEC4FC257E7F57 /* Pods-FZMyLibiary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZMyLibiary_Example.modulemap"; sourceTree = "<group>"; };
-		5F60785AE4B0E0B6D3BA17FEEB3D4D04 /* FZMyLibiary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZMyLibiary.xcconfig; sourceTree = "<group>"; };
-		6FF4A23928E2158C5D70804C32B05C4D /* FZMyLibiary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZMyLibiary-prefix.pch"; sourceTree = "<group>"; };
+		5DCFAB94C4CD61377A1CE702AB7F4F70 /* FZVideoEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZVideoEditor.h; sourceTree = "<group>"; };
+		60B9BE9422F5336C00F25AB3 /* FZRecordConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRecordConfig.h; sourceTree = "<group>"; };
+		60B9BE9522F5336C00F25AB3 /* FZRecordConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRecordConfig.m; sourceTree = "<group>"; };
+		60B9BE9822F5786700F25AB3 /* FZFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZFilter.h; sourceTree = "<group>"; };
+		60B9BE9922F5786700F25AB3 /* FZFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZFilter.m; sourceTree = "<group>"; };
+		60D75BE522F28085008284BD /* FZRecordAdaptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRecordAdaptor.h; sourceTree = "<group>"; };
+		60D75BE622F28085008284BD /* FZRecordAdaptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRecordAdaptor.m; sourceTree = "<group>"; };
+		633DA4889F0B3481A74360B9A7D640B3 /* FZMyLibiaryBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZMyLibiaryBundle.m; sourceTree = "<group>"; };
+		65D579D36DECB97349405E08E69367EA /* listing_camera_lens@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_camera_lens@2x.png"; path = "FZMyLibiary/Assets/listing_camera_lens@2x.png"; sourceTree = "<group>"; };
+		66CE69FA15B8F29BF0BBB5CB093C0256 /* FZVideoEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZVideoEditor.m; sourceTree = "<group>"; };
+		677696589225329489A15B29173013B6 /* FZRecordEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordEngine.m; sourceTree = "<group>"; };
+		67A1AEAFE3A773AC0B630E9B8C2569DB /* listing_flash_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_off@2x.png"; path = "FZMyLibiary/Assets/listing_flash_off@2x.png"; sourceTree = "<group>"; };
+		69AFD45F70950B480148784D0BA58ADC /* FZMyLibiary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZMyLibiary-umbrella.h"; sourceTree = "<group>"; };
+		6BBC24038B7582B10D2A87D5E4EDB9FF /* FZRecordEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordEngine.h; sourceTree = "<group>"; };
+		70A5D513E29A2D9935B8306539FA7D6C /* video_record_pause1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_record_pause1@3x.png"; path = "FZMyLibiary/Assets/video_record_pause1@3x.png"; sourceTree = "<group>"; };
+		7319B67627CF59AED7D5D1D101EF53F0 /* FZRecordTimeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordTimeView.m; sourceTree = "<group>"; };
+		78DF0348304B99A3C2828155E79120D9 /* FZRecordToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordToolView.h; sourceTree = "<group>"; };
 		7B27255925564A8F51B320A0383432AA /* Pods-FZMyLibiary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZMyLibiary_Example-dummy.m"; sourceTree = "<group>"; };
+		867D0F2DF78A4F1D3EEA65D19BBCCE21 /* FZRecordEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordEncoder.m; sourceTree = "<group>"; };
 		8B23C2F832BA3D14D1159193B1DB6375 /* Pods_FZMyLibiary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZMyLibiary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		920B361E4826EA26D874521122E03216 /* Pods-FZMyLibiary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZMyLibiary_Tests.modulemap"; sourceTree = "<group>"; };
+		9384341391983457F01811C5D4C83D42 /* video_record_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_record_pause@3x.png"; path = "FZMyLibiary/Assets/video_record_pause@3x.png"; sourceTree = "<group>"; };
 		93D59E6FB61502056E5E1DC792DEE371 /* Pods-FZMyLibiary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZMyLibiary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98F3D912C11C59D0D17E9CEF3F1E362E /* FZMyLibiary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZMyLibiary-Info.plist"; sourceTree = "<group>"; };
-		9BCFEB38F9DC0CA9214DC9D5EB2C298F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9667C2CCE1DE99F9B85688A8F383243B /* listing_flash_auto@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_auto@3x.png"; path = "FZMyLibiary/Assets/listing_flash_auto@3x.png"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB4867084C3200E5B03F3C64BE807C2 /* Pods-FZMyLibiary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZMyLibiary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A10B6809AFE47E0785B0BA6B925BDE4B /* FZMyLibiary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZMyLibiary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A946662132E3909BFEC947828A7C0E70 /* Pods-FZMyLibiary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZMyLibiary_Example-Info.plist"; sourceTree = "<group>"; };
+		B0F0492A32C5C7260A56D722F8BEAD92 /* FZRecordProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordProgressView.m; sourceTree = "<group>"; };
+		B35F3B6A9B4D626DC1D5E648829491AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B38A93B7C4E847F195C8C77944570FCD /* FZRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordView.m; sourceTree = "<group>"; };
 		B7FC3A36530EECADA39E5328FF4A141B /* Pods-FZMyLibiary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZMyLibiary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BB47EC033D80357476506C7E7279C58C /* Pods-FZMyLibiary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZMyLibiary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BBDDDD91B186E19D3684AA136B96FBB6 /* Pods-FZMyLibiary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZMyLibiary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D4F1F13276ADC1ED17DE4B76E37388B3 /* FZMyLibiary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZMyLibiary.h; path = FZMyLibiary/Classes/FZMyLibiary.h; sourceTree = "<group>"; };
+		CA9A1BFA815EB1B1901229C41BB800AD /* cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cancel@3x.png"; path = "FZMyLibiary/Assets/cancel@3x.png"; sourceTree = "<group>"; };
+		CC5F8D80E7A256E39F11CF352324D64F /* FZMyLibiary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZMyLibiary.modulemap; sourceTree = "<group>"; };
+		CF496CD1D5BD2FA05F5DD2D186E3EA02 /* FZRecordControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordControlView.m; sourceTree = "<group>"; };
+		CF7647329795B8E2FB82F92E741EB05E /* listing_flash_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_off@3x.png"; path = "FZMyLibiary/Assets/listing_flash_off@3x.png"; sourceTree = "<group>"; };
+		D2603D3C8311BE6D9A81F7119DC314D1 /* FZMyLibiary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZMyLibiary-Info.plist"; sourceTree = "<group>"; };
+		D3CF61BE15814F69B657BF48944773D4 /* FZRecordToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZRecordToolView.m; sourceTree = "<group>"; };
 		D66BE32E49DBD3C6817B309F4C55F2E2 /* FZMyLibiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FZMyLibiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E305170A2FB15F6C3D2AC6D34C4786E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E02262CD4B9653ACA979F51BAC9575E4 /* FZMyLibiary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZMyLibiary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E07E466C9D75EFAF54C4A11F9E26F4CF /* video_play_nav_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_play_nav_bg@3x.png"; path = "FZMyLibiary/Assets/video_play_nav_bg@3x.png"; sourceTree = "<group>"; };
 		E5ABFD33AB20C20A8A6B44178A00046D /* Pods-FZMyLibiary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZMyLibiary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E64B60B0BF23830E708BD6C93BA78CC0 /* video_record_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_record_pause@2x.png"; path = "FZMyLibiary/Assets/video_record_pause@2x.png"; sourceTree = "<group>"; };
+		E67D9B07BAAEDFA68257DFC2C441D92F /* focusImg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "focusImg@2x.png"; path = "FZMyLibiary/Assets/focusImg@2x.png"; sourceTree = "<group>"; };
 		E7F735680C1CED4AC5FD2A563BF9E5BB /* Pods-FZMyLibiary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZMyLibiary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA6772FC304BB226D133C0DC03D520F9 /* FZRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordEncoder.h; sourceTree = "<group>"; };
 		EB01122C6E0A8E8DC84234D52DF71B39 /* Pods_FZMyLibiary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZMyLibiary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDD739384D673C04364879DCE618C52 /* FZRecordControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZRecordControlView.h; sourceTree = "<group>"; };
+		EC798BCA7D567BF5E2FDD5C2F975D67A /* listing_flash_auto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_auto@2x.png"; path = "FZMyLibiary/Assets/listing_flash_auto@2x.png"; sourceTree = "<group>"; };
+		EE6A8ED962B0FD9C07CBC1D7A36A595B /* FZMyLibiaryBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZMyLibiaryBundle.h; sourceTree = "<group>"; };
+		EF9CCAACCD60421002A3CF7C11922306 /* video_record_pause1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_record_pause1@2x.png"; path = "FZMyLibiary/Assets/video_record_pause1@2x.png"; sourceTree = "<group>"; };
+		EFAFE6B5878C133C4C915BDAA6F1366E /* FZMyLibiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZMyLibiary-dummy.m"; sourceTree = "<group>"; };
 		F9F6B28269ABEEA7113CD0E71BC33F9D /* Pods-FZMyLibiary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZMyLibiary_Tests-dummy.m"; sourceTree = "<group>"; };
+		FBC6A380752E865AA1CE039904985372 /* FZMyLibiary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZMyLibiary.h; path = FZMyLibiary/Classes/FZMyLibiary.h; sourceTree = "<group>"; };
+		FFE2E103CB768F704FDCA1C99DFF8EE7 /* listing_flash_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "listing_flash_on@2x.png"; path = "FZMyLibiary/Assets/listing_flash_on@2x.png"; sourceTree = "<group>"; };
 		FFF3F2DFCFD31400A60375C2531C2F79 /* Pods-FZMyLibiary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZMyLibiary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,15 +178,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D32AAD901013A967DE81BFA5E46A166 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A46ED5700F0FEAAAEF4AEA98AF020229 /* Foundation.framework in Frameworks */,
-				47D44F813AEA4C4A207149E4EA6FDED7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B713EC04190FFD5067121F68AAC50BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,9 +186,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4A9FF86A597EDAE26B7DEF228E1A040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1CD4D7BC0E7D31E9B6D7F5A2F9F3C /* Foundation.framework in Frameworks */,
+				F6C8E3D2201F7CD6F2F2CBBD3B14B7D4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F9DBADB71E49F6489A8E4EF27A495F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0907B449CA23F215CC2807AF7CDC017F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60B9BE9822F5786700F25AB3 /* FZFilter.h */,
+				60B9BE9922F5786700F25AB3 /* FZFilter.m */,
+				EA6772FC304BB226D133C0DC03D520F9 /* FZRecordEncoder.h */,
+				867D0F2DF78A4F1D3EEA65D19BBCCE21 /* FZRecordEncoder.m */,
+				60D75BE522F28085008284BD /* FZRecordAdaptor.h */,
+				60D75BE622F28085008284BD /* FZRecordAdaptor.m */,
+				6BBC24038B7582B10D2A87D5E4EDB9FF /* FZRecordEngine.h */,
+				677696589225329489A15B29173013B6 /* FZRecordEngine.m */,
+				60B9BE9422F5336C00F25AB3 /* FZRecordConfig.h */,
+				60B9BE9522F5336C00F25AB3 /* FZRecordConfig.m */,
+				5DCFAB94C4CD61377A1CE702AB7F4F70 /* FZVideoEditor.h */,
+				66CE69FA15B8F29BF0BBB5CB093C0256 /* FZVideoEditor.m */,
+			);
+			name = Core;
+			path = FZMyLibiary/Classes/Core;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,29 +233,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		401B2DE891D21E93677C135DFAE5D7C1 /* FZMyLibiary */ = {
+		1D6714B8166AAA3E4185BACEA600EF89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4F1F13276ADC1ED17DE4B76E37388B3 /* FZMyLibiary.h */,
-				5E70A21D5947791D57C24B52FB94473B /* Pod */,
-				49D115CB2F30E633DFA65A023A967994 /* Support Files */,
+				A10B6809AFE47E0785B0BA6B925BDE4B /* FZMyLibiary.bundle */,
+				D66BE32E49DBD3C6817B309F4C55F2E2 /* FZMyLibiary.framework */,
+				EB01122C6E0A8E8DC84234D52DF71B39 /* Pods_FZMyLibiary_Example.framework */,
+				8B23C2F832BA3D14D1159193B1DB6375 /* Pods_FZMyLibiary_Tests.framework */,
 			);
-			name = FZMyLibiary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		49D115CB2F30E633DFA65A023A967994 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				085D980975E9583B1CD4003D1B2C1DF9 /* FZMyLibiary.modulemap */,
-				5F60785AE4B0E0B6D3BA17FEEB3D4D04 /* FZMyLibiary.xcconfig */,
-				0E4580E3068BF20A16D01DE4E15A6E5E /* FZMyLibiary-dummy.m */,
-				98F3D912C11C59D0D17E9CEF3F1E362E /* FZMyLibiary-Info.plist */,
-				6FF4A23928E2158C5D70804C32B05C4D /* FZMyLibiary-prefix.pch */,
-				07E6B9B05278DC6D724E12A0D757A042 /* FZMyLibiary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FZMyLibiary";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		54BABACA033C05EDE53A5FB8E6C71C1D /* Pods-FZMyLibiary_Example */ = {
@@ -152,14 +261,59 @@
 			path = "Target Support Files/Pods-FZMyLibiary_Example";
 			sourceTree = "<group>";
 		};
-		5E70A21D5947791D57C24B52FB94473B /* Pod */ = {
+		5B2F5BC1233EE9A2E579039D8133BF6F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21BC3A5CFDF561E81675BEFFD9DF7B56 /* FZMyLibiary.podspec */,
-				E305170A2FB15F6C3D2AC6D34C4786E0 /* LICENSE */,
-				9BCFEB38F9DC0CA9214DC9D5EB2C298F /* README.md */,
+				A92CB24A6E7922207BEC7AE019AB6D97 /* FZMyLibiary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F80AF470FB08A2D1AB768A3A5CD3D64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F8D80E7A256E39F11CF352324D64F /* FZMyLibiary.modulemap */,
+				2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */,
+				EFAFE6B5878C133C4C915BDAA6F1366E /* FZMyLibiary-dummy.m */,
+				D2603D3C8311BE6D9A81F7119DC314D1 /* FZMyLibiary-Info.plist */,
+				33E275A06C5EE4604E9A0F612E25AE6A /* FZMyLibiary-prefix.pch */,
+				69AFD45F70950B480148784D0BA58ADC /* FZMyLibiary-umbrella.h */,
+				0E5E3FFA62FB4DE38E88C03601AE4E7A /* ResourceBundle-FZMyLibiary-FZMyLibiary-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZMyLibiary";
+			sourceTree = "<group>";
+		};
+		66C3BE422D90E92B395CD5C42A2C3025 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E02262CD4B9653ACA979F51BAC9575E4 /* FZMyLibiary.podspec */,
+				B35F3B6A9B4D626DC1D5E648829491AF /* LICENSE */,
+				3CBF904903362B03C598927471F1CAD1 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		892A9ADB16A878EF6F87B48ED3E8CA34 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A8ED962B0FD9C07CBC1D7A36A595B /* FZMyLibiaryBundle.h */,
+				633DA4889F0B3481A74360B9A7D640B3 /* FZMyLibiaryBundle.m */,
+				EBDD739384D673C04364879DCE618C52 /* FZRecordControlView.h */,
+				CF496CD1D5BD2FA05F5DD2D186E3EA02 /* FZRecordControlView.m */,
+				21CAD391F4FF152FC7818906912AA64C /* FZRecordNaviView.h */,
+				4D7C1AEC73919D38199F8E9010B7E146 /* FZRecordNaviView.m */,
+				017F1BB7E68A8BE2830AA990C304B1A7 /* FZRecordProgressView.h */,
+				B0F0492A32C5C7260A56D722F8BEAD92 /* FZRecordProgressView.m */,
+				3FF2467CE3C059EDF1F917ABFE3463B0 /* FZRecordTimeView.h */,
+				7319B67627CF59AED7D5D1D101EF53F0 /* FZRecordTimeView.m */,
+				78DF0348304B99A3C2828155E79120D9 /* FZRecordToolView.h */,
+				D3CF61BE15814F69B657BF48944773D4 /* FZRecordToolView.m */,
+				1DC1F3F01431A9EBEC798E26E890B569 /* FZRecordView.h */,
+				B38A93B7C4E847F195C8C77944570FCD /* FZRecordView.m */,
+			);
+			name = UI;
+			path = FZMyLibiary/Classes/UI;
 			sourceTree = "<group>";
 		};
 		A230CF42E292EDF3CE0B42E2622AE21B /* Targets Support Files */ = {
@@ -169,6 +323,20 @@
 				B1FFA8F80799328912C538E9823DFCD7 /* Pods-FZMyLibiary_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A92CB24A6E7922207BEC7AE019AB6D97 /* FZMyLibiary */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6A380752E865AA1CE039904985372 /* FZMyLibiary.h */,
+				0907B449CA23F215CC2807AF7CDC017F /* Core */,
+				66C3BE422D90E92B395CD5C42A2C3025 /* Pod */,
+				E4B632FD640C70A9875CE4EF2E2BEF2B /* Resources */,
+				5F80AF470FB08A2D1AB768A3A5CD3D64 /* Support Files */,
+				892A9ADB16A878EF6F87B48ED3E8CA34 /* UI */,
+			);
+			name = FZMyLibiary;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B1FFA8F80799328912C538E9823DFCD7 /* Pods-FZMyLibiary_Tests */ = {
@@ -187,21 +355,13 @@
 			path = "Target Support Files/Pods-FZMyLibiary_Tests";
 			sourceTree = "<group>";
 		};
-		C530C8BF089523C6D07DE3319EA5C9F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				401B2DE891D21E93677C135DFAE5D7C1 /* FZMyLibiary */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C530C8BF089523C6D07DE3319EA5C9F6 /* Development Pods */,
+				5B2F5BC1233EE9A2E579039D8133BF6F /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				EA3F617C0667BF031FA56CF9F15783C0 /* Products */,
+				1D6714B8166AAA3E4185BACEA600EF89 /* Products */,
 				A230CF42E292EDF3CE0B42E2622AE21B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -215,19 +375,55 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA3F617C0667BF031FA56CF9F15783C0 /* Products */ = {
+		E4B632FD640C70A9875CE4EF2E2BEF2B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D66BE32E49DBD3C6817B309F4C55F2E2 /* FZMyLibiary.framework */,
-				EB01122C6E0A8E8DC84234D52DF71B39 /* Pods_FZMyLibiary_Example.framework */,
-				8B23C2F832BA3D14D1159193B1DB6375 /* Pods_FZMyLibiary_Tests.framework */,
+				42195BFB7772EC4256E5376180E6E33D /* cancel@2x.png */,
+				CA9A1BFA815EB1B1901229C41BB800AD /* cancel@3x.png */,
+				E67D9B07BAAEDFA68257DFC2C441D92F /* focusImg@2x.png */,
+				65D579D36DECB97349405E08E69367EA /* listing_camera_lens@2x.png */,
+				16636D8392E0A442598085D233EC4269 /* listing_camera_lens@3x.png */,
+				EC798BCA7D567BF5E2FDD5C2F975D67A /* listing_flash_auto@2x.png */,
+				9667C2CCE1DE99F9B85688A8F383243B /* listing_flash_auto@3x.png */,
+				67A1AEAFE3A773AC0B630E9B8C2569DB /* listing_flash_off@2x.png */,
+				CF7647329795B8E2FB82F92E741EB05E /* listing_flash_off@3x.png */,
+				FFE2E103CB768F704FDCA1C99DFF8EE7 /* listing_flash_on@2x.png */,
+				0146B93FDFC55D8E5DC2448AEE901F7B /* listing_flash_on@3x.png */,
+				2415B7A6D0747027C819012E7A2713FC /* video_play_nav_bg@2x.png */,
+				E07E466C9D75EFAF54C4A11F9E26F4CF /* video_play_nav_bg@3x.png */,
+				EF9CCAACCD60421002A3CF7C11922306 /* video_record_pause1@2x.png */,
+				70A5D513E29A2D9935B8306539FA7D6C /* video_record_pause1@3x.png */,
+				E64B60B0BF23830E708BD6C93BA78CC0 /* video_record_pause@2x.png */,
+				9384341391983457F01811C5D4C83D42 /* video_record_pause@3x.png */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		36627C2CEC3AD4ECECFEE29D0D587154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D284BFF766664ECBA2B0BA6D70899 /* FZMyLibiary-umbrella.h in Headers */,
+				83DA9E12B651713D176D5078CF5D4BD9 /* FZMyLibiary.h in Headers */,
+				B2EA615DD13B8737C4D34EB5CDD0036A /* FZMyLibiaryBundle.h in Headers */,
+				F655A602ED148151C787AACD4AB2E64E /* FZRecordControlView.h in Headers */,
+				BF254F8159C9D4071F327C84C26F8C9C /* FZRecordEncoder.h in Headers */,
+				C1A96DA9CA9097B578EC28732FC48D44 /* FZRecordEngine.h in Headers */,
+				4E8DC1495E0D5AFF6BB5A317A094CAEA /* FZRecordNaviView.h in Headers */,
+				60D75BE722F28085008284BD /* FZRecordAdaptor.h in Headers */,
+				60B9BE9A22F5786700F25AB3 /* FZFilter.h in Headers */,
+				8641B9F406E82C98B20B40EB673DE29D /* FZRecordProgressView.h in Headers */,
+				6006C8B02B730253A80D41BB41F447ED /* FZRecordTimeView.h in Headers */,
+				B0B00DB0C4903238F6594C096D8BD1CC /* FZRecordToolView.h in Headers */,
+				71424A97C4AB6EC2E465B54E9B886FE7 /* FZRecordView.h in Headers */,
+				1B9552B361C6FEFCE0E990637BA6D0E2 /* FZVideoEditor.h in Headers */,
+				60B9BE9622F5336C00F25AB3 /* FZRecordConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49DA5A0D638FECB696DB8E1B0393CB23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,15 +437,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF6EC97A96E394BFEC1EAB6180EAE02 /* Pods-FZMyLibiary_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC8CA847BF6F66920E0AEE0515C6D62 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31A00D4314A693A7565743F0EBFBF033 /* FZMyLibiary-umbrella.h in Headers */,
-				148B6C64CE21EDE32A7B8E2CB26E8867 /* FZMyLibiary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,21 +464,39 @@
 		};
 		5A4471F6A8C748132DE2B2EF2C5948FB /* FZMyLibiary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7EA46D2414C82A6AF4E58D3420F5B0A /* Build configuration list for PBXNativeTarget "FZMyLibiary" */;
+			buildConfigurationList = 90B405831622BC321159B27D743332C5 /* Build configuration list for PBXNativeTarget "FZMyLibiary" */;
 			buildPhases = (
-				FAC8CA847BF6F66920E0AEE0515C6D62 /* Headers */,
-				33E0829538DDD4D543F566C852CA3541 /* Sources */,
-				2D32AAD901013A967DE81BFA5E46A166 /* Frameworks */,
-				E4E606F159EAA76077BF09C426E55740 /* Resources */,
+				36627C2CEC3AD4ECECFEE29D0D587154 /* Headers */,
+				4FC72352E4C103387DAFE5D184B1E796 /* Sources */,
+				A4A9FF86A597EDAE26B7DEF228E1A040 /* Frameworks */,
+				83752999A7B5DC7AEAFCDB93916483D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A03E156FD4183F0F9224A71EA49D1F5A /* PBXTargetDependency */,
 			);
 			name = FZMyLibiary;
 			productName = FZMyLibiary;
 			productReference = D66BE32E49DBD3C6817B309F4C55F2E2 /* FZMyLibiary.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		7C225DE24819ABE35664E750AC58B327 /* FZMyLibiary-FZMyLibiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE0863ED92B2CE83AD15C8F5A14DC2F /* Build configuration list for PBXNativeTarget "FZMyLibiary-FZMyLibiary" */;
+			buildPhases = (
+				FEB8A9CC9861DD39EA5B962819DF8329 /* Sources */,
+				A9F9DBADB71E49F6489A8E4EF27A495F /* Frameworks */,
+				FD4AC7312B39BF9FCA42E43A34B6938B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FZMyLibiary-FZMyLibiary";
+			productName = "FZMyLibiary-FZMyLibiary";
+			productReference = A10B6809AFE47E0785B0BA6B925BDE4B /* FZMyLibiary.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		AB1FA2A9DAD5CC86F4B8B8D18ADBF417 /* Pods-FZMyLibiary_Tests */ = {
 			isa = PBXNativeTarget;
@@ -329,11 +534,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EA3F617C0667BF031FA56CF9F15783C0 /* Products */;
+			productRefGroup = 1D6714B8166AAA3E4185BACEA600EF89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5A4471F6A8C748132DE2B2EF2C5948FB /* FZMyLibiary */,
+				7C225DE24819ABE35664E750AC58B327 /* FZMyLibiary-FZMyLibiary */,
 				210F669B4430ECA60A07B17012BB89A1 /* Pods-FZMyLibiary_Example */,
 				AB1FA2A9DAD5CC86F4B8B8D18ADBF417 /* Pods-FZMyLibiary_Tests */,
 			);
@@ -348,10 +554,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E606F159EAA76077BF09C426E55740 /* Resources */ = {
+		83752999A7B5DC7AEAFCDB93916483D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C79143BF73DEB320E19B20E206FF390 /* FZMyLibiary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,14 +569,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD4AC7312B39BF9FCA42E43A34B6938B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF5C93B3C696A633178BBDF8BC7BD2 /* cancel@2x.png in Resources */,
+				B9B02BF322AE873E0DD03F18C383F404 /* cancel@3x.png in Resources */,
+				9710888B02B9053F8288E3E11A60D3B8 /* focusImg@2x.png in Resources */,
+				B6A703C76C58EB0A190559400BF6185B /* listing_camera_lens@2x.png in Resources */,
+				312CDB53EB6592D07E3BD9DB7F582EE7 /* listing_camera_lens@3x.png in Resources */,
+				78205D0185D58482E3C9A3C0581A63A9 /* listing_flash_auto@2x.png in Resources */,
+				E3EC58CDDA15EDDF3A879F88DD020636 /* listing_flash_auto@3x.png in Resources */,
+				0EBFEE1F9C2440AC2DC44AFE17D0759F /* listing_flash_off@2x.png in Resources */,
+				7E82BC1C9B92A045681E8D57EE33063C /* listing_flash_off@3x.png in Resources */,
+				5851748A15A85EE8BB8D1002FFE69136 /* listing_flash_on@2x.png in Resources */,
+				8FEEEDADDDF8996779E61D16FAF34673 /* listing_flash_on@3x.png in Resources */,
+				E9E55E7CD0CB6BB04CD8FDDA0F2889A1 /* video_play_nav_bg@2x.png in Resources */,
+				66984608A4AA0148FB14C37DBF1E101F /* video_play_nav_bg@3x.png in Resources */,
+				7D5A6A85957F52E2EA09FC47AC299E6C /* video_record_pause1@2x.png in Resources */,
+				CABE15808E42901C1E1740F82F0127DE /* video_record_pause1@3x.png in Resources */,
+				1F0B11148BB22D1721560EC293B7C483 /* video_record_pause@2x.png in Resources */,
+				74476811458FC18DA6237863C1473E7E /* video_record_pause@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33E0829538DDD4D543F566C852CA3541 /* Sources */ = {
+		4FC72352E4C103387DAFE5D184B1E796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7DA1EBFB3F9D36B80D2F1A9C9C4822 /* FZMyLibiary-dummy.m in Sources */,
+				60B9BE9722F5336C00F25AB3 /* FZRecordConfig.m in Sources */,
+				C0C722A3B070C48F5685CC13CF95956F /* FZMyLibiary-dummy.m in Sources */,
+				6AC482990C2D490632BF5D69FEE7435A /* FZMyLibiaryBundle.m in Sources */,
+				61754D12885570356B1A76503ED4FBFF /* FZRecordControlView.m in Sources */,
+				0190E70F24DB4F2EF7DEF64A8850CEE1 /* FZRecordEncoder.m in Sources */,
+				4BB3AAE3917197FFBEF6D5F9CAC64C98 /* FZRecordEngine.m in Sources */,
+				E34E5923C16DF74F46DED09FC1283DA2 /* FZRecordNaviView.m in Sources */,
+				A612503CDF1384EFEA8695BD5246C8A9 /* FZRecordProgressView.m in Sources */,
+				F83DB5D8623178E84D73B4A81A2F2FD8 /* FZRecordTimeView.m in Sources */,
+				60B9BE9B22F5786700F25AB3 /* FZFilter.m in Sources */,
+				0604D74C1F47126ED6F3D2270DE52C66 /* FZRecordToolView.m in Sources */,
+				6C6E837FB9BCA46B00EE503E86F788F0 /* FZRecordView.m in Sources */,
+				60D75BE822F28085008284BD /* FZRecordAdaptor.m in Sources */,
+				CCDE188859E836157B0F9BC9A964B872 /* FZVideoEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +622,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB92FC5A787176AC515C1D864B388FD1 /* Pods-FZMyLibiary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB8A9CC9861DD39EA5B962819DF8329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +643,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A03E156FD4183F0F9224A71EA49D1F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FZMyLibiary-FZMyLibiary";
+			target = 7C225DE24819ABE35664E750AC58B327 /* FZMyLibiary-FZMyLibiary */;
+			targetProxy = B8C41465C47DAF5E29834619A749EB80 /* PBXContainerItemProxy */;
+		};
 		D46048A0069BD6F59DDB3FF807E24F75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FZMyLibiary_Example";
@@ -407,35 +664,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04B855F103121B4DFDC8680369A61851 /* Debug */ = {
+		09F63C7C86C6B37DFCFBC6FC2EE5BFC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F60785AE4B0E0B6D3BA17FEEB3D4D04 /* FZMyLibiary.xcconfig */;
+			baseConfigurationReference = 2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZMyLibiary/FZMyLibiary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FZMyLibiary";
+				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/ResourceBundle-FZMyLibiary-FZMyLibiary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary.modulemap";
-				PRODUCT_MODULE_NAME = FZMyLibiary;
 				PRODUCT_NAME = FZMyLibiary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		23E850F385F53524389C678C6AAE61AD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -503,37 +746,6 @@
 			};
 			name = Debug;
 		};
-		26EC65E231DEFE7461D5450E50219A54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F60785AE4B0E0B6D3BA17FEEB3D4D04 /* FZMyLibiary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZMyLibiary/FZMyLibiary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary.modulemap";
-				PRODUCT_MODULE_NAME = FZMyLibiary;
-				PRODUCT_NAME = FZMyLibiary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2842F9A1ED7A685FD44117CCBEA45272 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7F735680C1CED4AC5FD2A563BF9E5BB /* Pods-FZMyLibiary_Tests.release.xcconfig */;
@@ -561,6 +773,53 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67EF19921BF9FE24DBCE3095C36E9359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FZMyLibiary";
+				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/ResourceBundle-FZMyLibiary-FZMyLibiary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FZMyLibiary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		890C51FE29BF789DE43548D2F0D546BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZMyLibiary/FZMyLibiary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary.modulemap";
+				PRODUCT_MODULE_NAME = FZMyLibiary;
+				PRODUCT_NAME = FZMyLibiary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -691,6 +950,36 @@
 			};
 			name = Debug;
 		};
+		DCD30BF53B3F1E458013F4A677026F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C99630EFFA1971527191E74A97FF856 /* FZMyLibiary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZMyLibiary/FZMyLibiary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZMyLibiary/FZMyLibiary.modulemap";
+				PRODUCT_MODULE_NAME = FZMyLibiary;
+				PRODUCT_NAME = FZMyLibiary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F0F75F84DD8AA95F7120EF45DC6F307D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38EBF3B18F5367D1761AA473395A7A07 /* Pods-FZMyLibiary_Example.release.xcconfig */;
@@ -755,11 +1044,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7EA46D2414C82A6AF4E58D3420F5B0A /* Build configuration list for PBXNativeTarget "FZMyLibiary" */ = {
+		90B405831622BC321159B27D743332C5 /* Build configuration list for PBXNativeTarget "FZMyLibiary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04B855F103121B4DFDC8680369A61851 /* Debug */,
-				26EC65E231DEFE7461D5450E50219A54 /* Release */,
+				DCD30BF53B3F1E458013F4A677026F06 /* Debug */,
+				890C51FE29BF789DE43548D2F0D546BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE0863ED92B2CE83AD15C8F5A14DC2F /* Build configuration list for PBXNativeTarget "FZMyLibiary-FZMyLibiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EF19921BF9FE24DBCE3095C36E9359 /* Debug */,
+				09F63C7C86C6B37DFCFBC6FC2EE5BFC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

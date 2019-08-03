@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = E638HXYY46;
+						DevelopmentTeam = ZZ7QJD8PMQ;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -497,12 +497,12 @@
 			baseConfigurationReference = AC0831D8AC4C1AE20C34E340 /* Pods-FZMyLibiary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E638HXYY46;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZMyLibiary/FZMyLibiary-Prefix.pch";
 				INFOPLIST_FILE = "FZMyLibiary/FZMyLibiary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.FZMyLibiary-Example.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,12 +513,12 @@
 			baseConfigurationReference = FC3253197595EEBC3918BFBF /* Pods-FZMyLibiary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E638HXYY46;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZMyLibiary/FZMyLibiary-Prefix.pch";
 				INFOPLIST_FILE = "FZMyLibiary/FZMyLibiary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.FZMyLibiary-Example.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

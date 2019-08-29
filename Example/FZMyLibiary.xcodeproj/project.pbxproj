@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5638D8BB0D20BE82821209E5 /* Pods_FZMyLibiary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D77487B983092631959F18 /* Pods_FZMyLibiary_Example.framework */; };
+		01698218BFC7162711F9918A /* libPods-FZMyLibiary_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3185F434D0E9BAEF2638D77 /* libPods-FZMyLibiary_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,19 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6043CBC42300F12F00445C28 /* FSKGPUImageBeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CBBE2300F12F00445C28 /* FSKGPUImageBeautyFilter.m */; };
+		6043CBC52300F12F00445C28 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CBC02300F12F00445C28 /* GPUImageBeautifyFilter.m */; };
+		6043CBC62300F12F00445C28 /* LFGPUImageEmptyFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6043CBC22300F12F00445C28 /* LFGPUImageEmptyFilter.mm */; };
+		6091942722FBC425009C8D40 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 6091942622FBC425009C8D40 /* test.png */; };
+		6091942922FBC42D009C8D40 /* hueScale.png in Resources */ = {isa = PBXBuildFile; fileRef = 6091942822FBC42D009C8D40 /* hueScale.png */; };
+		6091942B22FBC435009C8D40 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6091942A22FBC435009C8D40 /* test1.jpg */; };
+		6091942D22FBC445009C8D40 /* detector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6091942C22FBC445009C8D40 /* detector.png */; };
+		6091942F22FBC44E009C8D40 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6091942E22FBC44E009C8D40 /* heart.png */; };
+		6091943322FBC497009C8D40 /* ttttt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6091943222FBC497009C8D40 /* ttttt.png */; };
+		60B9240B23064F7A00F7A818 /* FZViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9240A23064F7A00F7A818 /* FZViewController2.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A857392BFA5F28E85C40BA83 /* Pods_FZMyLibiary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72004D4810FF31CD956F1363 /* Pods_FZMyLibiary_Tests.framework */; };
+		DAA66F975A26BA06B29CD90A /* libPods-FZMyLibiary_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A51205D998764F238E3981 /* libPods-FZMyLibiary_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,6 @@
 /* Begin PBXFileReference section */
 		2C78A40FFDA05B0458C856B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		30A3F8FC1B42DD3A0C228FCA /* FZMyLibiary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZMyLibiary.podspec; path = ../FZMyLibiary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46D77487B983092631959F18 /* Pods_FZMyLibiary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZMyLibiary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FZMyLibiary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZMyLibiary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,12 +67,27 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6043CBBE2300F12F00445C28 /* FSKGPUImageBeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKGPUImageBeautyFilter.m; sourceTree = "<group>"; };
+		6043CBBF2300F12F00445C28 /* LFGPUImageEmptyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGPUImageEmptyFilter.h; sourceTree = "<group>"; };
+		6043CBC02300F12F00445C28 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		6043CBC12300F12F00445C28 /* FSKGPUImageBeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKGPUImageBeautyFilter.h; sourceTree = "<group>"; };
+		6043CBC22300F12F00445C28 /* LFGPUImageEmptyFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LFGPUImageEmptyFilter.mm; sourceTree = "<group>"; };
+		6043CBC32300F12F00445C28 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6091942622FBC425009C8D40 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		6091942822FBC42D009C8D40 /* hueScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hueScale.png; sourceTree = "<group>"; };
+		6091942A22FBC435009C8D40 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		6091942C22FBC445009C8D40 /* detector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detector.png; sourceTree = "<group>"; };
+		6091942E22FBC44E009C8D40 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		6091943222FBC497009C8D40 /* ttttt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ttttt.png; sourceTree = "<group>"; };
+		60B9240923064F7A00F7A818 /* FZViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZViewController2.h; sourceTree = "<group>"; };
+		60B9240A23064F7A00F7A818 /* FZViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZViewController2.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72004D4810FF31CD956F1363 /* Pods_FZMyLibiary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZMyLibiary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC0831D8AC4C1AE20C34E340 /* Pods-FZMyLibiary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B07A83596F895C1FA3F37AC1 /* Pods-FZMyLibiary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Tests/Pods-FZMyLibiary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3185F434D0E9BAEF2638D77 /* libPods-FZMyLibiary_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZMyLibiary_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A51205D998764F238E3981 /* libPods-FZMyLibiary_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZMyLibiary_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDD077DBD08CBADEC97B389 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C722FD3E8D06116A575FD599 /* Pods-FZMyLibiary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Tests/Pods-FZMyLibiary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3253197595EEBC3918BFBF /* Pods-FZMyLibiary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZMyLibiary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +101,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5638D8BB0D20BE82821209E5 /* Pods_FZMyLibiary_Example.framework in Frameworks */,
+				01698218BFC7162711F9918A /* libPods-FZMyLibiary_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +112,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A857392BFA5F28E85C40BA83 /* Pods_FZMyLibiary_Tests.framework in Frameworks */,
+				DAA66F975A26BA06B29CD90A /* libPods-FZMyLibiary_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +158,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				46D77487B983092631959F18 /* Pods_FZMyLibiary_Example.framework */,
-				72004D4810FF31CD956F1363 /* Pods_FZMyLibiary_Tests.framework */,
+				B3185F434D0E9BAEF2638D77 /* libPods-FZMyLibiary_Example.a */,
+				B4A51205D998764F238E3981 /* libPods-FZMyLibiary_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,11 +167,15 @@
 		6003F593195388D20070C39A /* Example for FZMyLibiary */ = {
 			isa = PBXGroup;
 			children = (
+				6043CBBC2300F12000445C28 /* Vendors */,
+				60C98BF422F953A1006B9B9C /* Resource */,
 				6003F59C195388D20070C39A /* FZAppDelegate.h */,
 				6003F59D195388D20070C39A /* FZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FZViewController.h */,
 				6003F5A6195388D20070C39A /* FZViewController.m */,
+				60B9240923064F7A00F7A818 /* FZViewController2.h */,
+				60B9240A23064F7A00F7A818 /* FZViewController2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -186,6 +214,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6043CBBC2300F12000445C28 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				6043CBBD2300F12F00445C28 /* BeautifyFilter */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		6043CBBD2300F12F00445C28 /* BeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				6043CBC12300F12F00445C28 /* FSKGPUImageBeautyFilter.h */,
+				6043CBBE2300F12F00445C28 /* FSKGPUImageBeautyFilter.m */,
+				6043CBBF2300F12F00445C28 /* LFGPUImageEmptyFilter.h */,
+				6043CBC22300F12F00445C28 /* LFGPUImageEmptyFilter.mm */,
+				6043CBC02300F12F00445C28 /* GPUImageBeautifyFilter.m */,
+				6043CBC32300F12F00445C28 /* GPUImageBeautifyFilter.h */,
+			);
+			path = BeautifyFilter;
+			sourceTree = "<group>";
+		};
+		60C98BF422F953A1006B9B9C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6091943222FBC497009C8D40 /* ttttt.png */,
+				6091942E22FBC44E009C8D40 /* heart.png */,
+				6091942C22FBC445009C8D40 /* detector.png */,
+				6091942A22FBC435009C8D40 /* test1.jpg */,
+				6091942822FBC42D009C8D40 /* hueScale.png */,
+				6091942622FBC425009C8D40 /* test.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,7 +269,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BEFA05CB3FCD136DA6D1403C /* [CP] Embed Pods Frameworks */,
+				DF637262B97FE8F873B1542C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,8 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6091942F22FBC44E009C8D40 /* heart.png in Resources */,
+				6091942D22FBC445009C8D40 /* detector.png in Resources */,
+				6091942722FBC425009C8D40 /* test.png in Resources */,
+				6091943322FBC497009C8D40 /* ttttt.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6091942922FBC42D009C8D40 /* hueScale.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6091942B22FBC435009C8D40 /* test1.jpg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,22 +410,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEFA05CB3FCD136DA6D1403C /* [CP] Embed Pods Frameworks */ = {
+		DF637262B97FE8F873B1542C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FZMyLibiary/FZMyLibiary.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZMyLibiary.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FZMyLibiary_Example/Pods-FZMyLibiary_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -368,8 +444,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FZAppDelegate.m in Sources */,
+				6043CBC52300F12F00445C28 /* GPUImageBeautifyFilter.m in Sources */,
+				60B9240B23064F7A00F7A818 /* FZViewController2.m in Sources */,
 				6003F5A7195388D20070C39A /* FZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6043CBC62300F12F00445C28 /* LFGPUImageEmptyFilter.mm in Sources */,
+				6043CBC42300F12F00445C28 /* FSKGPUImageBeautyFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +581,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZMyLibiary/FZMyLibiary-Prefix.pch";
 				INFOPLIST_FILE = "FZMyLibiary/FZMyLibiary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.FZMyLibiary-Example.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +598,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZMyLibiary/FZMyLibiary-Prefix.pch";
 				INFOPLIST_FILE = "FZMyLibiary/FZMyLibiary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.FZMyLibiary-Example.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,6 +8,6 @@
 #ifndef FZMyLibiary_h
 #define FZMyLibiary_h
 
- #import "FZRecordView.h"
-
+#import "FZMyLibiaryBundle.h" 
+#import <GPUImage/GPUImage.h>
 #endif /* FZMyLibiary_h */

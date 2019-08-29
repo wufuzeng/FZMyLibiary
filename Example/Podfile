@@ -1,4 +1,5 @@
-use_frameworks!
+platform :ios, '8.0'
+#use_frameworks!
 
 target 'FZMyLibiary_Example' do
     pod 'FZMyLibiary', :path => '../'

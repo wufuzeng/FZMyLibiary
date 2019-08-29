@@ -30,14 +30,15 @@ TODO: Add long description of the pod here.
   
   s.ios.deployment_target = '8.0'
  
-  s.public_header_files = 'Pod/Classes/**/FZMyLibiary.h'
-  s.source_files = 'FZMyLibiary/Classes/**/*.{h,m}'
+  s.public_header_files = 'Pod/Classes/FZMyLibiary.h'
+  s.source_files = ['FZMyLibiary/Classes/**/*.{h,m}']
   
-  s.resource_bundles = {
-    'FZMyLibiary' => ['FZMyLibiary/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'FZMyLibiary' => ['FZMyLibiary/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'GPUImage','~> 0.1.7'
 end

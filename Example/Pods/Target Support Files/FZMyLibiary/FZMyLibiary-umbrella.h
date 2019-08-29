@@ -10,17 +10,13 @@
 #endif
 #endif
 
-#import "FZRecordEncoder.h"
-#import "FZRecordEngine.h"
-#import "FZVideoEditor.h"
+#import "FZAlbumHandler.h"
+#import "FZImageAlbumHandler.h"
+#import "FZPHAlbum.h"
+#import "FZPHAsset.h"
+#import "FZVideoAlbumHandler.h"
 #import "FZMyLibiary.h"
 #import "FZMyLibiaryBundle.h"
-#import "FZRecordControlView.h"
-#import "FZRecordNaviView.h"
-#import "FZRecordProgressView.h"
-#import "FZRecordTimeView.h"
-#import "FZRecordToolView.h"
-#import "FZRecordView.h"
 
 FOUNDATION_EXPORT double FZMyLibiaryVersionNumber;
 FOUNDATION_EXPORT const unsigned char FZMyLibiaryVersionString[];

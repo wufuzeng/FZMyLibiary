@@ -1,16 +1,23 @@
 PODS:
-  - FZMyLibiary (0.0.1)
+  - FZMyLibiary (0.0.1):
+    - GPUImage (~> 0.1.7)
+  - GPUImage (0.1.7)
 
 DEPENDENCIES:
   - FZMyLibiary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GPUImage
 
 EXTERNAL SOURCES:
   FZMyLibiary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZMyLibiary: 3f4518c77d151247de1c3663e7e14309346de5fa
+  FZMyLibiary: b552c9f37d43657743bd40598ba06740201e370c
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
 
-PODFILE CHECKSUM: 1541441563b8ffbc34f174cd14125e03869493db
+PODFILE CHECKSUM: c4582a9cffae290edf73bea5693b8bf38173b81e
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.0.beta.1

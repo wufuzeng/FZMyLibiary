@@ -8,11 +8,17 @@
 
 #import "FZAppDelegate.h"
 
+#import "FZViewController2.h"
 @implementation FZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    FZViewController2 *vc = [FZViewController2 new];
+    
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

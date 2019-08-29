@@ -18,15 +18,17 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "Pod/Classes/**/FZMyLibiary.h",
-  "source_files": "FZMyLibiary/Classes/**/*.{h,m}",
-  "resource_bundles": {
-    "FZMyLibiary": [
-      "FZMyLibiary/Assets/*.png"
-    ]
-  },
+  "public_header_files": "Pod/Classes/FZMyLibiary.h",
+  "source_files": [
+    "FZMyLibiary/Classes/**/*.{h,m}"
+  ],
   "frameworks": [
     "UIKit",
     "Foundation"
-  ]
+  ],
+  "dependencies": {
+    "GPUImage": [
+      "~> 0.1.7"
+    ]
+  }
 }
